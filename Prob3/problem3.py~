@@ -10,6 +10,7 @@ def largest_factor(n):
 
 answer = largest_factor(600851475143)
 answer2 = largest_factor(40)
+print answer2
 print answer
 max_value = max(answer)
 
