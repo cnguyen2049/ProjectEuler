@@ -1,7 +1,7 @@
 
 #check is it is a palindrome
 def check_palindrome(num):
-    if str(n) == str(n)[::-1]:
+    if str(num) == str(num)[::-1]:
         return True
     else:
         return False

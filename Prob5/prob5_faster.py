@@ -1,21 +1,8 @@
 
 """
-def primes(limit):
-    primes = []
-    primes.append(2)
-    for x in range(1,limit,2):
-        isPrime = True
-        j = 0
-        while(primes[j]*primes[j]<=x):
-            if(x % primes[j]==0):
-                isPrime = False
-                break
-            j += 1
-        if(isPrime):
-            primes.append(x)
-    return primes
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
-print primes(20)
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 """
 from collections import Counter
 primes_under_20 = [2,3,5,7,11,13,17,19]
